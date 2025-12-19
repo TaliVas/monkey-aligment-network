@@ -4,7 +4,7 @@ This repository contains code for analyzing 3D trajectory data from monkey reach
 
 ## Note on Dataset
 
-This repository contains **subset versions** of the feature files with 200 trials each (instead of the full 10,000-13,000+ trials). The subset files are provided to keep the repository size manageable for GitHub. The full processing pipeline and analysis code remains unchanged.
+This repository contains **subset versions** of the feature files with 200 trials each (instead of the full 10,000-13,000+ trials). The subset files are provided to keep the repository size manageable for GitHub. The full processing pipeline and analysis code remains unchanged. The full dataset will be sent upon request.
 
 ## Project Overview
 
