@@ -88,7 +88,7 @@ Processes trajectories and computes features for the model.
 
 4. **Recenter**: Shift trajectory so it starts at origin
 
-5. **Rotate**: Align all trajectories so target 5 (rightward) is the reference direction
+5. **Rotate**: Align all trajectories so target 5 is the reference direction
 
 6. **Compute features**:
    - `rotation_x`, `rotation_y`, `rotation_z`: Rotated coordinates
@@ -205,16 +205,6 @@ Model saved for run 1
 Average MAE Nana: 47.15 ms
 Average MAE Thina: 54.32 ms
 ```
-
-
-## Coordinate System Conventions
-
-1. **Original coordinates**: Raw sensor data (x, y, z in mm)
-2. **Centered coordinates**: Origin at trajectory start point
-3. **Rotated coordinates**: Aligned so target 5 (rightward) is reference
-4. **Aligned coordinates** (cross-monkey): Kabsch-rotated to match reference monkey's target layout
-
----
 
 ## Scaling and Padding
 
